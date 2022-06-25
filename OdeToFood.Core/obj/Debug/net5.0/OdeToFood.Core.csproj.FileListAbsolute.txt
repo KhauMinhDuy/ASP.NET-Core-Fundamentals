@@ -10,3 +10,15 @@ C:\Users\duykh\ASP.NET Core\code\asp-net-core-fundamentals\OdeToFood\OdeToFood.C
 C:\Users\duykh\ASP.NET Core\code\asp-net-core-fundamentals\OdeToFood\OdeToFood.Core\obj\Debug\net5.0\OdeToFood.Core.dll
 C:\Users\duykh\ASP.NET Core\code\asp-net-core-fundamentals\OdeToFood\OdeToFood.Core\obj\Debug\net5.0\ref\OdeToFood.Core.dll
 C:\Users\duykh\ASP.NET Core\code\asp-net-core-fundamentals\OdeToFood\OdeToFood.Core\obj\Debug\net5.0\OdeToFood.Core.pdb
+D:\ASP.NET Core\SourceCode\ASP.NET-Core-Fundamentals\OdeToFood.Core\bin\Debug\net5.0\OdeToFood.Core.deps.json
+D:\ASP.NET Core\SourceCode\ASP.NET-Core-Fundamentals\OdeToFood.Core\bin\Debug\net5.0\OdeToFood.Core.dll
+D:\ASP.NET Core\SourceCode\ASP.NET-Core-Fundamentals\OdeToFood.Core\bin\Debug\net5.0\ref\OdeToFood.Core.dll
+D:\ASP.NET Core\SourceCode\ASP.NET-Core-Fundamentals\OdeToFood.Core\bin\Debug\net5.0\OdeToFood.Core.pdb
+D:\ASP.NET Core\SourceCode\ASP.NET-Core-Fundamentals\OdeToFood.Core\obj\Debug\net5.0\OdeToFood.Core.csproj.AssemblyReference.cache
+D:\ASP.NET Core\SourceCode\ASP.NET-Core-Fundamentals\OdeToFood.Core\obj\Debug\net5.0\OdeToFood.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET Core\SourceCode\ASP.NET-Core-Fundamentals\OdeToFood.Core\obj\Debug\net5.0\OdeToFood.Core.AssemblyInfoInputs.cache
+D:\ASP.NET Core\SourceCode\ASP.NET-Core-Fundamentals\OdeToFood.Core\obj\Debug\net5.0\OdeToFood.Core.AssemblyInfo.cs
+D:\ASP.NET Core\SourceCode\ASP.NET-Core-Fundamentals\OdeToFood.Core\obj\Debug\net5.0\OdeToFood.Core.csproj.CoreCompileInputs.cache
+D:\ASP.NET Core\SourceCode\ASP.NET-Core-Fundamentals\OdeToFood.Core\obj\Debug\net5.0\OdeToFood.Core.dll
+D:\ASP.NET Core\SourceCode\ASP.NET-Core-Fundamentals\OdeToFood.Core\obj\Debug\net5.0\ref\OdeToFood.Core.dll
+D:\ASP.NET Core\SourceCode\ASP.NET-Core-Fundamentals\OdeToFood.Core\obj\Debug\net5.0\OdeToFood.Core.pdb

@@ -32,5 +32,29 @@ namespace OdeToFood.Data
         {
             return restaurants.SingleOrDefault(r => r.id == id);
         }
+
+        public Restaurant Update(Restaurant updateRestaurant)
+        {
+            var restaurant = restaurants.SingleOrDefault(r => r.id == updateRestaurant.id);
+            if(restaurant != null)
+            {
+                restaurant.Name = updateRestaurant.Name;
+                restaurant.CuisineType = updateRestaurant.CuisineType;
+                restaurant.Location = updateRestaurant.Location;
+            }
+            return restaurant;
+        }
+
+        public int Commit()
+        {
+            return 0;
+        }
+
+        public Restaurant Add(Restaurant newRestaurant)
+        {
+            restaurants.Add(newRestaurant);
+            newRestaurant.id = restaurants.Max(r => r.id) + 1;
+            return newRestaurant;
+        }
     }
 }

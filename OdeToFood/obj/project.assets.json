@@ -50,11 +50,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\duykh\\ASP.NET Core\\code\\asp-net-core-fundamentals\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
+      "projectUniqueName": "D:\\ASP.NET Core\\SourceCode\\ASP.NET-Core-Fundamentals\\OdeToFood\\OdeToFood.csproj",
       "projectName": "OdeToFood",
-      "projectPath": "C:\\Users\\duykh\\ASP.NET Core\\code\\asp-net-core-fundamentals\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
+      "projectPath": "D:\\ASP.NET Core\\SourceCode\\ASP.NET-Core-Fundamentals\\OdeToFood\\OdeToFood.csproj",
       "packagesPath": "C:\\Users\\duykh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\duykh\\ASP.NET Core\\code\\asp-net-core-fundamentals\\OdeToFood\\OdeToFood\\obj\\",
+      "outputPath": "D:\\ASP.NET Core\\SourceCode\\ASP.NET-Core-Fundamentals\\OdeToFood\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\duykh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,14 +64,15 @@
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\duykh\\ASP.NET Core\\code\\asp-net-core-fundamentals\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {
-              "projectPath": "C:\\Users\\duykh\\ASP.NET Core\\code\\asp-net-core-fundamentals\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj"
+            "D:\\ASP.NET Core\\SourceCode\\ASP.NET-Core-Fundamentals\\OdeToFood.Data\\OdeToFood.Data.csproj": {
+              "projectPath": "D:\\ASP.NET Core\\SourceCode\\ASP.NET-Core-Fundamentals\\OdeToFood.Data\\OdeToFood.Data.csproj"
             }
           }
         }
@@ -103,7 +104,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

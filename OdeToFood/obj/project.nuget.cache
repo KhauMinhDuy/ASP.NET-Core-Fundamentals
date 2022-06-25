@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X+g992Z1SXbd26u9hYMVNFT/ITAs5WrnnOJFMBvO/xa1Q4VhydYeCRJ9FSMZKoemwvbSGVOO6s16BinZ7tmpvw==",
+  "dgSpecHash": "NJQ6Ab2cj+dId4MkyfQrKqh9C0/wMyRGXtzDD7dp0Chey4FeFO/xpOQ8jOYEkOIw088vmhDcLH9qh7C3Vguy1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\duykh\\ASP.NET Core\\code\\asp-net-core-fundamentals\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
+  "projectFilePath": "D:\\ASP.NET Core\\SourceCode\\ASP.NET-Core-Fundamentals\\OdeToFood\\OdeToFood.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
