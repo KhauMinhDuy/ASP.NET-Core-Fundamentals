@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tEjIX+bDUb8z4sXzRVFCRdhIGHx+sb8f4ICW2Iu6t6dMUskHXUj9y5xzyIslgH4YeIkG3foVh9weNsTjF6t0qg==",
+  "dgSpecHash": "FiigYQup4GepTDzEGdPkO2W9+LsR+2bRXQIeqNhstMFVkWHMxPLd+a9+Atb4i4xT+qlNK+tkQ7+XkNpN3tNyyQ==",
   "success": true,
   "projectFilePath": "D:\\ASP.NET Core\\SourceCode\\ASP.NET-Core-Fundamentals\\OdeToFood.Data\\OdeToFood.Data.csproj",
   "expectedPackageFiles": [
@@ -99,7 +99,10 @@
     "C:\\Users\\duykh\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\duykh\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\duykh\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\duykh\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\duykh\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\duykh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\duykh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\duykh\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

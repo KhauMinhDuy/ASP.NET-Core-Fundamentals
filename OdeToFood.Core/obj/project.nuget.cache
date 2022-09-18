@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "v6QGftZ0RDTzDuDuZqsmKeNDCcQnVzT5Hkvm+6d7Rd9Q9pibfMEEQpj691raLtPwW+cXWtIjKnfP8YKzD4f9CQ==",
+  "success": true,
+  "projectFilePath": "D:\\ASP.NET Core\\SourceCode\\ASP.NET-Core-Fundamentals\\OdeToFood.Core\\OdeToFood.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\duykh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\duykh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\duykh\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
