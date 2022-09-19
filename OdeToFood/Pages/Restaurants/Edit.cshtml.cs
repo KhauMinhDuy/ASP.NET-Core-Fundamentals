@@ -26,20 +26,18 @@ namespace OdeToFood.Pages.Restaurants
         public IActionResult OnGet(int? restaurantId)
         {
             Cuisunes = htmlHelper.GetEnumSelectList<CuisineType>();
-            if(restaurantId.HasValue)
+            if (restaurantId.HasValue)
             {
                 Restaurant = restaurantData.GetById(restaurantId.Value);
-
-            } 
+                if (Restaurant == null)
+                {
+                    return RedirectToPage("./NotFound");
+                }
+            }
             else
             {
                 Restaurant = new Restaurant();
             }
-            if (Restaurant == null)
-            {
-                return RedirectToPage("./NotFound");
-            }
-
             return Page();
         }
 
@@ -50,7 +48,7 @@ namespace OdeToFood.Pages.Restaurants
                 Cuisunes = htmlHelper.GetEnumSelectList<CuisineType>();
                 return Page();
             }
-            if(Restaurant.id > 0)
+            if (Restaurant.Id > 0)
             {
                 restaurantData.Update(Restaurant);
             }
@@ -60,9 +58,7 @@ namespace OdeToFood.Pages.Restaurants
             }
             restaurantData.Commit();
             TempData["Message"] = "Restanrant Saved!";
-            return RedirectToPage("./Detail", new { restaurantId = Restaurant.id });
-
-
+            return RedirectToPage("./Detail", new { restaurantId = Restaurant.Id });
 
         }
     }

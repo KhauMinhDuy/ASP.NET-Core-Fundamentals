@@ -8,31 +8,32 @@ using OdeToFood.Data;
 
 namespace OdeToFood.Pages.Restaurants
 {
-    public class ListModel : PageModel
-    {
-        private readonly IConfiguration config;
-        private readonly IRestaurantData restaurantData;
-        private readonly ILogger<ListModel> logger;
+	public class ListModel : PageModel
+	{
+		private readonly IConfiguration config;
+		private readonly IRestaurantData restaurantData;
+		private readonly ILogger<ListModel> logger;
 
-        public string Message { get; set; }
+		public string Message { get; set; }
 
-        [BindProperty(SupportsGet = true)]
-        public string SearchTerm { get; set; }
+		[BindProperty(SupportsGet = true)]
+		public string SearchTerm { get; set; }
 
-        public IEnumerable<Restaurant> Restaurants { get; set; }
+		public IEnumerable<Restaurant> Restaurants { get; set; }
 
-        public ListModel(IConfiguration config, IRestaurantData restaurantData, ILogger<ListModel> logger)
-        {
-            this.config = config;
-            this.restaurantData = restaurantData;
-            this.logger = logger;
-        }
+		public ListModel(IConfiguration config, IRestaurantData restaurantData, ILogger<ListModel> logger)
+		{
+			this.config = config;
+			this.restaurantData = restaurantData;
+			this.logger = logger;
+		}
 
-        public void OnGet()
-        {
-            logger.LogError($"Executing ListModel");
-            Message = config["Message"];
-            Restaurants = restaurantData.GetRestaurantByName(SearchTerm);
-        }
-    }
+		public void OnGet()
+		{
+			logger.LogError($"Executing ListModel");
+			Message = config["Message"];
+			Restaurants = restaurantData.GetRestaurantByName(SearchTerm);
+		}
+
+	}
 }

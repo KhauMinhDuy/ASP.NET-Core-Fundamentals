@@ -31,7 +31,7 @@ namespace OdeToFood.Data
         public Restaurant Delete(int id)
         {
             var restaurant = GetById(id);
-            if(restaurant != null)
+            if (restaurant != null)
             {
                 dbContext.Remove(restaurant);
             }

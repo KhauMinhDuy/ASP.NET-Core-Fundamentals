@@ -28,7 +28,7 @@ namespace OdeToFood.Pages.R2
                 return NotFound();
             }
 
-            Restaurant = await _context.Restaurants.FirstOrDefaultAsync(m => m.id == id);
+            Restaurant = await _context.Restaurants.FirstOrDefaultAsync(m => m.Id == id);
 
             if (Restaurant == null)
             {
