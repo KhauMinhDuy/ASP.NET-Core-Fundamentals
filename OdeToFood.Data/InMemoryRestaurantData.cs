@@ -12,9 +12,9 @@ namespace OdeToFood.Data
         {
             restaurants = new List<Restaurant>()
             {
-                new Restaurant {id  = 1, Name = "Khau Minh Duy", Location ="VietName", CuisineType = CuisineType.Italian },
-                new Restaurant {id  = 2, Name = "Huyen Viet Anh Phi", Location ="VietName", CuisineType = CuisineType.Mexican },
-                new Restaurant {id  = 3, Name = "Nguyen Ha Anh", Location ="VietName", CuisineType = CuisineType.Italian }
+                new Restaurant {Id  = 1, Name = "Khau Minh Duy", Location ="VietName", CuisineType = CuisineType.Italian },
+                new Restaurant {Id  = 2, Name = "Nguyen Thanh Long", Location ="VietName", CuisineType = CuisineType.Mexican },
+                new Restaurant {Id  = 3, Name = "Nguyen Duc Thanh", Location ="VietName", CuisineType = CuisineType.Italian }
             };
         }
 
@@ -30,12 +30,12 @@ namespace OdeToFood.Data
 
         public Restaurant GetById(int id)
         {
-            return restaurants.SingleOrDefault(r => r.id == id);
+            return restaurants.SingleOrDefault(r => r.Id == id);
         }
 
         public Restaurant Update(Restaurant updateRestaurant)
         {
-            var restaurant = restaurants.SingleOrDefault(r => r.id == updateRestaurant.id);
+            var restaurant = restaurants.SingleOrDefault(r => r.Id == updateRestaurant.Id);
             if (restaurant != null)
             {
                 restaurant.Name = updateRestaurant.Name;
@@ -53,13 +53,13 @@ namespace OdeToFood.Data
         public Restaurant Add(Restaurant newRestaurant)
         {
             restaurants.Add(newRestaurant);
-            newRestaurant.id = restaurants.Max(r => r.id) + 1;
+            newRestaurant.Id = restaurants.Max(r => r.Id) + 1;
             return newRestaurant;
         }
 
         public Restaurant Delete(int id)
         {
-            Restaurant restaurant = restaurants.FirstOrDefault(r => r.id == id);
+            Restaurant restaurant = restaurants.FirstOrDefault(r => r.Id == id);
             if (restaurant != null)
             {
                 restaurants.Remove(restaurant);
@@ -69,7 +69,7 @@ namespace OdeToFood.Data
 
         public int GetCountOfRestaurant()
         {
-            return restaurants.Count();
+            return restaurants.Count;
         }
     }
 }

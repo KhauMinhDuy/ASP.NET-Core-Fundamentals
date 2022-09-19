@@ -30,7 +30,7 @@ namespace OdeToFood.Pages.R2
                 return NotFound();
             }
 
-            Restaurant = await _context.Restaurants.FirstOrDefaultAsync(m => m.id == id);
+            Restaurant = await _context.Restaurants.FirstOrDefaultAsync(m => m.Id == id);
 
             if (Restaurant == null)
             {
@@ -56,7 +56,7 @@ namespace OdeToFood.Pages.R2
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!RestaurantExists(Restaurant.id))
+                if (!RestaurantExists(Restaurant.Id))
                 {
                     return NotFound();
                 }
@@ -71,7 +71,7 @@ namespace OdeToFood.Pages.R2
 
         private bool RestaurantExists(int id)
         {
-            return _context.Restaurants.Any(e => e.id == id);
+            return _context.Restaurants.Any(e => e.Id == id);
         }
     }
 }
